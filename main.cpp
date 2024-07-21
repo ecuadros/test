@@ -10,7 +10,8 @@ using namespace std;
 
 int main(){
       cout << "Test 2" << endl;
-      CStudent gourab, er; // stud1 es un objeto
+      CStudent obj1("Gourab", 1000), obj2("Er", 2000); // stud1 es un objeto
 
+      
       return 0;
 }
