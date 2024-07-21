@@ -23,6 +23,22 @@ public:  // Se pueden usar desde afuera también
 
     // Nuevos métodos van aquí
     void print();
+
+    // getter & setter for m_code
+    void setCode(long _code){
+        m_code = _code;
+    }
+    long getCode(){
+        return m_code;
+    }
+
+    // getter & setter for m_name
+    void setName(long _name){
+        m_name = _name;
+    }
+    string getName(){
+        return m_name;
+    }
 };
 
 #endif

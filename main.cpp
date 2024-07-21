@@ -13,8 +13,8 @@ int main(){
       CStudent obj1("Gourab", 1000), obj2("Er", 2000); // stud1 es un objeto
 
       obj1.print();
-      obj1.m_id   = 500;
-      obj1.m_name = "Juan"; 
+      obj1.setCode(1500);
+      obj1.print();
 
       obj2.print();
       
