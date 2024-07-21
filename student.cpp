@@ -9,4 +9,6 @@ CStudent::CStudent(string _name, long _code){
 
 CStudent::~CStudent(){}
 
-
+void CStudent::print(){
+    cout << "Name: " << m_name << ", Code: " << m_code << endl;
+}

@@ -9,9 +9,10 @@
 using namespace std;
 
 int main(){
-      cout << "Test 2" << endl;
+      // cout << "Test 2" << endl;
       CStudent obj1("Gourab", 1000), obj2("Er", 2000); // stud1 es un objeto
 
-      
+      obj1.print();
+      obj2.print();
       return 0;
 }

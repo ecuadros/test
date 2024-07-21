@@ -18,6 +18,9 @@ public:  // Se pueden usar desde afuera también
     // Destructor para terminar el objeto
     // Solo puede haber 1
     ~CStudent();
+
+    // Nuevos métodos van aquí
+    void print();
 };
 
 #endif
