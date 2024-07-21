@@ -10,6 +10,7 @@ private: // Se puedemn usar desde adentro de la clase solamente
     long   m_code;
     string m_name;
 
+
 public:  // Se pueden usar desde afuera también
     // Constructor para inicializar el objeto
     // Pueden haber varios (con diferentes parámetros)
