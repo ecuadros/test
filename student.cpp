@@ -2,13 +2,13 @@
 #include "student.h"
 using namespace std;
 
-CStudent::CStudent(string _name, long _code){
-    m_name = _name;
-    m_code = _code;
-}
-
-CStudent::~CStudent(){}
+CStudent::CStudent(string _name, long _code, string _program)
+        : CPerson(_name, _code),
+          m_program(_program)
+{}
 
 void CStudent::print(){
-    cout << "Name: " << m_name << ", Code: " << m_code << endl;
+    CPerson::print(); // Llamar al print del padre
+    cout << "Program: " << m_program << endl;
+    cout << " ======= " << endl;
 }
