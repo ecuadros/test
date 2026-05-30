@@ -1,4 +1,4 @@
-void main()
+\\Rodrigo Callo void main()
 {
       cout << "Hello world" << endl;
       cout << "Test" << endl;
